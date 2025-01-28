@@ -1,0 +1,9 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5433/task_management_system_db
+    username: postgres
+    password: postgres
+    driver-class-name: org.postgresql.Driver
